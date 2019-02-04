@@ -1,14 +1,14 @@
-import React from 'react'
-import { View, Text, Button } from 'react-native'
+import React from "react";
+import { View, Text, Button } from "react-native";
 
 const HomePage = ({ navigation }) => (
-    <View>
-        <Text>HomePage</Text>
-        <Button
-          title="Go to About"
-          onPress={() => navigation.navigate('AboutPage')}
-        />
-    </View>
-)
+  <View>
+    <Text>HomePage</Text>
+    <Button
+      title="Go to About"
+      onPress={() => navigation.navigate("AboutPage")}
+    />
+  </View>
+);
 
-export default HomePage
+export default HomePage;

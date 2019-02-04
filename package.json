@@ -10,7 +10,8 @@
     "web-start": "react-scripts start",
     "web-build": "react-scripts build",
     "web-test": "react-scripts test",
-    "web-eject": "react-scripts eject"
+    "web-eject": "react-scripts eject",
+    "prettier": "npx prettier --write \"**/*.js\""
   },
   "dependencies": {
     "@react-navigation/core": "^3.0.3",
